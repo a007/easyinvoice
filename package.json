@@ -1,11 +1,11 @@
 {
-  "name": "easyinvoice",
-  "version": "3.0.24",
-  "description": "Easily create beautiful pdf invoices.",
+  "name": "ak-easyinvoice",
+  "version": "0.1",
+  "description": "Easily create beautiful pdf invoices. forked from dveldhoen/easyinvoice ",
   "license": "MIT",
-  "homepage": "https://easyinvoice.cloud",
+  "homepage": "https://github.com/a007/easyinvoice",
   "author": {
-    "name": "Danny Veldhoen"
+    "name": "Abdullah Kurnaz"
   },
   "scripts": {
     "prebuild": "rimraf dist",
@@ -21,11 +21,11 @@
   "module": "index-module.js",
   "types": "./src/lib/easyinvoice.d.ts",
   "bugs": {
-    "url": "https://github.com/dveldhoen/easyinvoice/issues"
+    "url": "https://github.com/a007/easyinvoice/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dveldhoen/easyinvoice.git"
+    "url": "https://github.com/a007/easyinvoice.git"
   },
   "keywords": [
     "invoice",
