@@ -117,7 +117,7 @@ export class EasyInvoice {
             // console.log('Page loaded');
             const canvas = document.createElement('canvas');
 
-            const viewport = isMobileBrowser() ? page.getViewport({scale: window.screen.width / page.getViewport({scale: 1.0}).width}) : page.getViewport({scale: Math.max(window.devicePixelRatio || 1, 1)});
+            const viewport = isMobileBrowser() ? page.getViewport({ scale: 3072 / page.getViewport({ scale: 1.0 }).width }) : page.getViewport({ scale: Math.max(10 || 1, 1) });
 
             // @ts-ignore
             document.getElementById(this._elementId).innerHTML = "";
