@@ -1,6 +1,6 @@
 {
   "name": "ak-easyinvoice",
-  "version": "0.1",
+  "version": "3.0.24.1",
   "description": "Easily create beautiful pdf invoices. forked from dveldhoen/easyinvoice ",
   "license": "MIT",
   "homepage": "https://github.com/a007/easyinvoice",
